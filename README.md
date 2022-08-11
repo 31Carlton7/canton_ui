@@ -9,10 +9,10 @@ Canton Design System elements and resources for Flutter.
 <table> 
   <tr>
     <td> 
-      <img width="250" src="https://github.com/31Carlton7/canton_ui/blob/master/lib/assets/iphone_1"> </img>
+      <img width="250" src="https://github.com/31Carlton7/canton_ui/blob/master/lib/assets/iphone_1.png"> </img>
     </td>
     <td>
-      <img width="250" src="https://github.com/31Carlton7/canton_ui/blob/master/lib/assets/iphone_7"> 
+      <img width="250" src="https://github.com/31Carlton7/canton_ui/blob/master/lib/assets/iphone_7.png"> 
   </img> 
     </td>
     <td> 
