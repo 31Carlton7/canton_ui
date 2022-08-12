@@ -19,6 +19,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import 'package:canton_ui/canton_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+/// Consumer widget with MaterialApp built in that implements
+/// themes and other components
 class CantonApp extends StatelessWidget {
   final String? title;
   final Widget? home;

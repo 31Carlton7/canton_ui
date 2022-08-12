@@ -34,6 +34,7 @@ class CantonScaffold extends StatelessWidget {
     this.resizeToAvoidBottomInset,
     this.safeArea = true,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     Widget _body() {

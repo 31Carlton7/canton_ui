@@ -27,6 +27,7 @@ const EdgeInsets _kBackgroundButtonPadding = EdgeInsets.symmetric(
   horizontal: 64.0,
 );
 
+/// Default button with light animations
 class CantonPrimaryButton extends StatefulWidget {
   const CantonPrimaryButton({
     Key? key,

@@ -1,8 +1,8 @@
 <img src="lib/assets/main_visual.png"> </img>
 
-# Canton Design System
+# Canton UI
 
-Canton Design System elements and resources for Flutter.
+Canton UI elements and resources for Flutter.
 
 ## Examples in Apps
 
