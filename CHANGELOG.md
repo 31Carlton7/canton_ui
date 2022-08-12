@@ -1,3 +1,7 @@
+## 1.0.5
+
+- Update code docs
+
 ## 1.0.4
 
 - Add simple docs

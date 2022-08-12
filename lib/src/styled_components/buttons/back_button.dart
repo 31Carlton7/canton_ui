@@ -18,6 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import '../../../canton_ui.dart';
 
+/// isClear function will remove gray rectangle background
 class CantonBackButton extends StatelessWidget {
   final bool? isClear;
   final void Function()? onPressed;
