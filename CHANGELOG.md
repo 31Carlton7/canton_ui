@@ -1,3 +1,3 @@
-## 1.0.0
+## 1.0.1
 
-- Welcome to Canton UI's initial release!
+- Update README.md
