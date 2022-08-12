@@ -1,4 +1,4 @@
-<img src="https://github.com/31Carlton7/canton_ui/blob/master/lib/assets/main_visual.png"> </img>
+<img src="lib/assets/main_visual.png"> </img>
 
 # Canton Design System
 
@@ -9,14 +9,14 @@ Canton Design System elements and resources for Flutter.
 <table> 
   <tr>
     <td> 
-      <img width="250" src="https://github.com/31Carlton7/canton_ui/blob/master/lib/assets/iphone_1.png"> </img>
+      <img width="250" src="lib/assets/iphone_1.png"> </img>
     </td>
     <td>
-      <img width="250" src="https://github.com/31Carlton7/canton_ui/blob/master/lib/assets/iphone_7.png"> 
+      <img width="250" src="lib/assets/iphone_7.png"> 
   </img> 
     </td>
     <td> 
-        <img width="250" src="https://github.com/31Carlton7/canton_ui/blob/master/lib/assets/demo.gif"> 
+        <img width="250" src="lib/assets/demo.gif"> 
   </img>
     </td>
   </tr>
