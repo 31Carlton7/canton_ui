@@ -32,19 +32,125 @@ To use this package and access its content, add this dependency to your pubspec.
 
 ```
 dependencies:
-    canton_design_system:
-        git:
-          url: git://github.com/31Carlton7/canton_design_system.git
-          ref: master
+    canton_ui: <latest_version>
 ```
 
 And simply import the package using this code
 
 ```
-import 'package:canton_design_system/canton_design_system.dart';
+import 'package:canton_ui/canton_ui.dart';
 ```
 
 BTW `package:flutter/material.dart` is already imported when using this package so no need to re-import :)
+
+## Using
+
+_Note:_ The package is versatile in a sense that you do not have to use all of the elements in the package. You can mix it in with Material and Cupertino elements with no problem with the exception of certain elements.
+
+#### CantonApp
+
+Replaces MaterialApp. Recommended that you use this over MaterialApp to get you the theming and lightmode/darkmode switching.
+
+```
+CantonApp(
+    title: kAppTitle,
+    primaryLightColor: CantonColors.blue // Or any other color,
+    primaryLightVariantColor: CantonColors.blue[200]! // Or any other color,
+    primaryDarkColor: CantonDarkColors.blue // Or any other color,
+    primaryDarkVariantColor: CantonDarkColors.blue[200]! // Or any other color,
+    home: YourMainAppWidget(),
+)
+```
+
+#### CantonScaffold
+
+Use this as a replacement for `Scaffold()` widget. Adds padding and other elements.
+
+```
+CantonScaffold(
+    body: Column(
+        children: [...]
+    )
+)
+```
+
+#### ViewHeader
+
+Instead of using a navbar, CantonUI uses a ViewHeader, in which you can customize the leading and action buttons
+
+```
+ViewHeaderOne(
+    title: ...,
+    button: ..., // Placed on right side
+)
+
+
+ViewHeaderTwo(
+    title: ...,
+    backButton: ...,
+    isBackButtonClear: ...,
+    buttonOne: ...,
+    buttonTwo: ...,
+)
+```
+
+#### Buttons
+
+CantonUI has a lot of different buttons to choose from.
+
+```
+ActionButton()
+
+BackButton()
+
+HeaderButton() // Commonly used in ViewHeaders
+
+NullButton() // Great spacer widget
+
+PrimaryButton() // Default button, great for all use cases, highly customizeable
+```
+
+#### TextInput
+
+CantonUI offers a standard text input and a tag text input field (Used in the note taking app). Both inputs are highly customizeable and it'll look good right out of the box.
+
+```
+CantonTextInput() // obscureText is required if isTextFormField is true
+
+CantonTagTextInput()
+```
+
+#### Loading
+
+Default Loading Spinner
+
+```
+Loading()
+```
+
+#### RefreshList
+
+If you're making an app in which pull to refresh is needed (like a news app or an app that needs to call an API) then this widget has you covered.
+
+```
+RefreshList(
+    child: ...
+)
+```
+
+#### Responsive
+
+If you need to create a UI that's needs to compensate for different screen sizes, then you can use the Responsive widget to take care of it.
+
+_Note:_ mobile and tablet are required.
+
+```
+Responsive(
+    desktop: YourDesktopWidget() // Screens larger than 1100px width,
+    tablet: YourTabletWidget() // Screens between 650 - 1149 px width,
+    mobile: YourMobileWidget() // Screens between 0 - 649 px width,
+)
+```
 
 ## All Features
 
