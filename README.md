@@ -1,4 +1,4 @@
-<img src="lib/assets/main_visual.png"> </img>
+![](lib/assets/main_visual.png)
 
 # Canton UI
 
@@ -6,21 +6,25 @@ Canton UI elements and resources for Flutter.
 
 ## Examples in Apps
 
-<table> 
+| [Notes App](https://github.com/31carlton7/flutter_notes_app) | [News App](https://github.com/31carlton7/flutter_news_app) | [Elisha](https://github.com/31carlton7/elisha) |
+| :----------------------------------------------------------: | :--------------------------------------------------------: | :--------------------------------------------: |
+|                 ![](lib/assets/iphone_1.png)                 |                  ![](lib/assets/demo.gif)                  |          ![](lib/assets/iphone_7.png)          |
+
+<!-- <table>
   <tr>
-    <td> 
+    <td>
       <img width="250" src="lib/assets/iphone_1.png"> </img>
     </td>
     <td>
-      <img width="250" src="lib/assets/iphone_7.png"> 
-  </img> 
+      <img width="250" src="lib/assets/iphone_7.png">
+  </img>
     </td>
-    <td> 
-        <img width="250" src="lib/assets/demo.gif"> 
+    <td>
+        <img width="250" src="lib/assets/demo.gif">
   </img>
     </td>
   </tr>
-</table>
+</table> -->
 
 ## Description
 
