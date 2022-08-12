@@ -1,3 +1,7 @@
+## 1.0.9
+
+- Change License to MIT
+
 ## 1.0.8
 
 - Update README.md
