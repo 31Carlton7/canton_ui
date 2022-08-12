@@ -74,6 +74,22 @@ CantonScaffold(
 )
 ```
 
+#### Colors
+
+You can view all the colors at `lib/config/themes/(light_theme or dark_theme)/(light or dark)_color_palette.dart`
+
+Using colors directly is discouraged and should be accessed through `Theme.of(context).colorScheme`
+
+This is to allow the light and dark colors to be used in the correct situation (When app is in light mode or dark mode). Exceptions to this rule do apply, for instance when setting up CantonApp.
+
+```
+CantonColors.blue
+
+CantonColors.pink[300]
+
+CantonDarkColors.green
+```
+
 #### ViewHeader
 
 Instead of using a navbar, CantonUI uses a ViewHeader, in which you can customize the leading and action buttons
