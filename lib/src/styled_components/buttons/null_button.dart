@@ -1,7 +1,7 @@
 // ignore_for_file: use_key_in_widget_constructors
 
 /*
-Canton Design System
+Canton UI
 Copyright (C) 2022  Carlton Aikins
 
 This program is free software: you can redistribute it and/or modify
