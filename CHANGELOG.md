@@ -1,3 +1,7 @@
+## 1.0.7
+
+- Update code docs
+
 ## 1.0.6
 
 - Update code docs

@@ -18,6 +18,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 library canton_ui;
 
+/// Exports for all packages and internal package files
+
 // Packages
 export 'package:flutter/material.dart';
 export 'package:flutter_feather_icons/flutter_feather_icons.dart';
