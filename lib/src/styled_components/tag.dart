@@ -18,6 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import '../../canton_ui.dart';
 
+/// Used in tag text field
 class CantonTag extends StatelessWidget {
   final Color? color;
 

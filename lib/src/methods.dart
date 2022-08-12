@@ -18,6 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import 'package:canton_ui/canton_ui.dart';
 
+/// Functions to make development easier
 class CantonMethods {
   /// Defocuses a textfield
   static void defocusTextfield(BuildContext context) =>

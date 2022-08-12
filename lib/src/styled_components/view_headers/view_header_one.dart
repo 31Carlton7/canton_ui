@@ -18,6 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import 'package:canton_ui/canton_ui.dart';
 
+/// Adds one button to the right side with a large title
 class ViewHeaderOne extends StatelessWidget {
   final String? title;
   final Widget? button;

@@ -18,6 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import 'package:canton_ui/canton_ui.dart';
 
+/// Default Spinner
 // ignore: use_key_in_widget_constructors
 class Loading extends StatelessWidget {
   @override

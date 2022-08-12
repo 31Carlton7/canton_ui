@@ -18,6 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import 'package:canton_ui/canton_ui.dart';
 
+/// Has the capability of addings 1, 2 or no buttons
 class ViewHeaderTwo extends StatelessWidget {
   final String? title;
   final bool? backButton;

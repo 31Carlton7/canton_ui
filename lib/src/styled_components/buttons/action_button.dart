@@ -18,6 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import 'package:canton_ui/canton_ui.dart';
 
+/// This used on headers and cards
 class CantonActionButton extends StatelessWidget {
   final Widget icon;
   final Color? iconColor;

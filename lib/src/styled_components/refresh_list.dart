@@ -21,6 +21,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import 'package:canton_ui/canton_ui.dart';
 import 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart';
 
+/// Used in "Pull to refresh" situations
 class RefreshList extends StatelessWidget {
   final Widget? child;
   final Future<void> Function()? onRefresh;
